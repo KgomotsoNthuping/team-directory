@@ -26,4 +26,9 @@ foreach (var member in team)
     Console.WriteLine(new string('-', 50));
 }
 
-
+static List<TeamMember> SortTeam(List<TeamMember> team)
+{
+    return team
+        .OrderBy(member => member.Name)
+        .ToList();
+}
