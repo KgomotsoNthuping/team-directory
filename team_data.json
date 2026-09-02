@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Lerato Mokoena",
+    "role": "Project Manager",
+    "department": "Operations",
+    "email": "lerato@gmail.com"
+  },
+  {
+    "name": "Thabo Nkosi",
+    "role": "Developer",
+    "department": "Technology",
+    "email": "thabo@gmail.com"
+  },
+  {
+    "name": "Naledi Molefe",
+    "role": "Communications Officer",
+    "department": "Corporate Affairs",
+    "email": "naledigmail.com"
+  }
+]
