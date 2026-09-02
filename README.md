@@ -8,3 +8,6 @@ dotnet run
 
 Search the directory:
 dotnet run -- technology
+
+## Contribution Note
+This project was updated as part of a pull request review exercise.
