@@ -1,4 +1,4 @@
-## Question 1
+# Question 1
 ## Category A
 1. Initial repository setup
 The .gitignore and empty README.md should be committed separately as the first commit. This is important because the ignore rules need to exist before files such as .env can accidentally enter the repository history.
@@ -110,3 +110,11 @@ This is non-descriptive. Rewrite : "Change user model to use User ID"
 f. Changed line 47 of notes.md
 This is implementation-minutiae. Rewrite: "Corrected the typo in instructions. 
 
+
+## Part 3
+## Task 2
+## First Observation
+Before staging the json data,I ran git diff. It showed the original text at first entry and was replaced with the code reading the json data file code.
+
+## Second Observation
+Before staging the displaying of team members, i ran git diff again. The output showed each members details. 

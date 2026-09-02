@@ -13,4 +13,17 @@ var team = JsonSerializer.Deserialize<List<TeamMember>>(
     }
 ) ?? new List<TeamMember>();
 
-Console.WriteLine($"Loaded {team_data.Count} team members.");
+Console.WriteLine();
+Console.WriteLine("Team Directory");
+Console.WriteLine(new string('-', 50));
+
+foreach (var member in team)
+{
+    Console.WriteLine($"Name: {member.Name}");
+    Console.WriteLine($"Role: {member.Role}");
+    Console.WriteLine($"Department: {member.Department}");
+    Console.WriteLine($"Email: {member.Email}");
+    Console.WriteLine(new string('-', 50));
+}
+
+
