@@ -131,3 +131,8 @@ My push was rejected because the remote main branch contained a commit created t
 I used git pull --rebase origin main because my local change was independent of the change already made on GitHub. The command retrieved the remote commit and re-did my local commit on top of it.
 
 Force-pushing would have been inappropriate because it could overwrite work that already existed on GitHub. Rebase helps preserve this.
+
+## A suprising moment
+I also found the GitHub Actions workflow useful because a failed workflow does more than display a red X on the repository. Depending on the GitHub notification settings, workflow failures can also generate notifications, making users aware that something has gone wrong. When I temporarily renamed NOTES.md, the workflow failed because the required file could not be found and got alereted by notification on my phone.
+
+
