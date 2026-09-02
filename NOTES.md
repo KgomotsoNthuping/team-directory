@@ -118,3 +118,8 @@ Before staging the json data,I ran git diff. It showed the original text at firs
 
 ## Second Observation
 Before staging the displaying of team members, i ran git diff again. The output showed each members details. 
+
+## Task 9
+The feature/sort-team rebase produced a straight-line history. Its commit was replayed on top of the latest main, allowing the final integration to happen through a fast-forward without creating another merge commit.
+
+I would use a merge when preserving the true branch structure is useful, particularly for a larger collaborative feature. I would use rebase for a small private feature branch when I want to update it against the latest main and keep the final history linear.
