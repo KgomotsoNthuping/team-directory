@@ -123,3 +123,11 @@ Before staging the displaying of team members, i ran git diff again. The output 
 The feature/sort-team rebase produced a straight-line history. Its commit was replayed on top of the latest main, allowing the final integration to happen through a fast-forward without creating another merge commit.
 
 I would use a merge when preserving the true branch structure is useful, particularly for a larger collaborative feature. I would use rebase for a small private feature branch when I want to update it against the latest main and keep the final history linear.
+
+## Part 4
+
+My push was rejected because the remote main branch contained a commit created through GitHub that my local repository did not yet have.
+
+I used git pull --rebase origin main because my local change was independent of the change already made on GitHub. The command retrieved the remote commit and re-did my local commit on top of it.
+
+Force-pushing would have been inappropriate because it could overwrite work that already existed on GitHub. Rebase helps preserve this.
