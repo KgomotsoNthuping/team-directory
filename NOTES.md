@@ -135,4 +135,31 @@ Force-pushing would have been inappropriate because it could overwrite work that
 ## A suprising moment
 I also found the GitHub Actions workflow useful because a failed workflow does more than display a red X on the repository. Depending on the GitHub notification settings, workflow failures can also generate notifications, making users aware that something has gone wrong. When I temporarily renamed NOTES.md, the workflow failed because the required file could not be found and got alereted by notification on my phone.
 
+## Assignment 1.2
+## Question 1
+Forking is the correct model as it basically creates a copy of the repository under my github account. This allows me to create branches and make changes without needing access to change the original repository.
+
+Cloning my partner's repository and pushing to the branch would fail as I do not have access.
+
+## Question 2
+Low effort: Added search by role
+Good effort: - What changed: Added the ability to search team members by their role            - Why changes are made: This would make it easier to find people with specific responsibility
+             - How to verify: 1. Run appliction
+                              2. Search using role
+                              3. Confirm that only matching team member appears
+
+It's easier to review becasue it clearly explains what was changed and why it was useful to do that change and also how to see the change that has been done.
+
+## Question 3
+Blocking comment: shows a problem that should be fixed before a pull request is merged. 
+
+Nit/Suggestion: this is an improvement that does not prevent feature from working
+
+Question: this is asking for clarity
+
+If the change would be about readability, I would treat it as a suggestion. If the reviewer mentions an issue affecting requirements, i would treat this as a block and only as a question should the reviewer asks for an explanation. 
+
+## Question 4
+I would run git fetch when I know my partner may have made new commits to the main branch. I would then look at the log for changes made on the repository before changing my branch
+
 
