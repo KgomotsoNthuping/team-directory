@@ -162,4 +162,15 @@ If the change would be about readability, I would treat it as a suggestion. If t
 ## Question 4
 I would run git fetch when I know my partner may have made new commits to the main branch. I would then look at the log for changes made on the repository before changing my branch
 
+## Updates
+1. What I contributed, and why I chose it
+I contributed a sorting feature to my partner’s Team Directory application. The original application could already display team members and search for them by name or role. This is useful because sorting  helps organise results and easier to read.
 
+2. A comment I received that changed my code
+Currently cannot view comments at the moment but will update as soon as I do. 
+
+3. A comment I gave that I stand by
+Not yet observed
+
+4. Fetch vs. pull, in practice
+When I ran git fetch in my Team Directory repository, I could see that origin/main had my partner’s merged contribution while my local main had not changed yet. Git pull would update my main to include these contributions. I now understand that immediately pulling can change my local branch before I have inspected what has changed remotely.
